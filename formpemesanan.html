@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman form pemesanan</title>
+    <style>
+        div {
+          margin-bottom: 10px;
+        }
+        label {
+          display: inline-block;
+          width: 150px;
+          text-align: right;
+        }
+      </style>
+</head>
+<body>
+    <center>   
+    <fieldset style="background-color: rgb(87, 241, 141)">     Home          |    Register       |    policy      |      About   </fieldset>
+</center>
+<fieldset >
+<table>
+    <tr>
+        <td rowspan="9">
+            
+            <img src="img/1.jpeg" alt=""><br>
+            Select image to upload:
+            <br>
+  <input type="file" name="Upload picture" id="upload picture">
+ 
+            
+        </td>
+    </tr>
+    <tr>
+        <td><br><br>
+            <form action="hasil_form_pemesanan_barang.html" method="post">
+                <label for="title here">Title here: </label>
+      <input type="text" id="title here">
+                <br><br>
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <br>
+      <br>
+      <label for="number">Account Number :</label>
+      <input type="number" id="number">
+      <br>
+      <br>
+      <label for="bank" id="bank">Bank : </label>
+      <select name="text" id="">
+        <option value="BRI">MANDIRI</option>
+        <option value="BNi">BSI</option>
+        <option value="BCA">BCA</option>
+      </select>
+      
+      <br>
+      <br>
+      
+      <label for="accountholder">Account houlder : </label>
+      <input type="text" id="accountholder">
+      <br>
+      <br>
+      <label for="transaction">Transaction : </label>
+      <input type="Number" id="transaction"><br>
+      <p>*</p>
+
+      
+      <input  type="checkbox" name="send to phone" id="send to phone">Tend to phone<label for="send to phone"></label>
+      
+            <br>
+            <input  type="checkbox" name="email" id="send email" >Send email<label for="send email"></label>
+            <br>
+<br>
+    <br>
+    <label for="send to mobile phone">Send to mobile phone :</label>
+      <input type="text" id="send to mobile phone">
+      <br>
+      <br>
+      <label for="email">Email : </label>
+      <input type="email" id="email">
+      <br>
+      <br>
+     <center> <input type="submit" value="generate nobr link"></center>
+            </form>
+        </td>
+    </tr>
+</table>
+</fieldset>
+
+
+</body>
+</html>
