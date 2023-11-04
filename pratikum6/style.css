@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(189, 89, 8);
+}
+
+h1{
+    text-align: center;
+    color: blue;
+        
+    
+}
+p{
+    text-align: justify;
+    width: fit-content;
+}
+.center{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto{
+    background-color: rgb(39, 14, 62);
+}
+.foto img{
+    width: 23%;
+}
+.promo {
+    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.cod p {
+  
+    background-color: rgb(163, 163, 230);
+    border: 1px dotted rgb(33, 2, 65);
+    font-weight: bold;
+    color: rgb(7, 107, 107);
+}
+h3{
+    text-align: center;
+    color: blue;
+}

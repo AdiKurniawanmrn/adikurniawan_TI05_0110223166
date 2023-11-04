@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(207, 62, 9);
+}
+#header{ 
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+}
+#header h1{
+    color: blueviolet;
+}
+h3 {
+    color: blueviolet;
+}
+.gambar{
+    text-align: center;
+}
+.gambar img{
+    width: 30%;
+
+}
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+.fp::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+
+
