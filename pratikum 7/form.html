@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{ 
+            text-align: center;
+        }
+        label{
+            font-weight: bold;
+            display: inline-block;
+          width: 150px;
+          text-align: right;
+
+        }
+        .form-group{
+            margin-bottom: 10px;
+        }
+        .form-container{
+            background-color:beige;
+            border: 3px solid black;
+            border-radius: 10px;
+            box-shadow:0 0 10px blue ;
+            padding: 20px;
+            width: 400px;
+            height: 500px;
+            margin:100px auto;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>FORM ENTRY DATA PEGAWAI</h2>
+        <br><br>
+
+        <form method="post" action="">
+          <div class="form-group">
+               <label for="NIK">NIK</label>
+                <input type="text" id="NIK">
+          </div>
+          <div class="form-group">
+            <label for="NAMA">NAMA</label>
+             <input type="text" id="ADI KURNIAWAN">
+              </div>
+       <div class="form-group">
+        <label for="TEMPAT LAHIR">TEMPAT LAHIR</label>
+         <input type="text" id="BIMA NUSA TENGGARA BARAT">
+   </div>
+   <div class="form-group">
+    <label for="TEMPAT LAHIR">TANGGAL LAHIR</label>
+     <input type="date" 
+     id="tanggal lahir" name
+     ="tanggal lahir" required>
+</div>
+<div class="form-group">
+    <label for="ALAMAT">ALAMAT</label>
+<textarea name="ALAMAT" id="ALAMAT" cols="20" rows="2"></textarea>
+    
+</div>
+<div class="form-group">
+    <label for="NO TELEPON">NO TELEPON</label>
+     <input type="text" id="NO TELEPON">
+</div>
+<div class="form-group">
+    <label for="JABATAN">JABATAN</label>
+   <select name="JABATAN" id="JABATAN">
+     <option value="jabatan">    </option>
+     <option value="jabatan">tidak ada</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="STATUS">STATUS</label>
+     <select name="STATUS" id="STATUS">
+        <option value="mahasiswa">    </option>
+        <option value="mahasiswa">MAHASISWA</option>
+     </select>
+</div>
+<center>
+ <input style="background-color: blue;" type="submit" value="simpan">
+<input style="background-color: brown;" type="reset" value="batal">
+</center>
+        </form>
+    </div> 
+</body>
+</html>
