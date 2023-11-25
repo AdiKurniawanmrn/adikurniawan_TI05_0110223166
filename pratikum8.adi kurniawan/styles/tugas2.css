@@ -1,0 +1,45 @@
+
+Header{
+    background-color:aquamarine;
+    text-align: center;
+    padding: 15px;
+    margin: 1%;
+    }
+    Article{
+    background-color: beige;
+    text-align: center;
+    float: right;
+    width: 68%;
+    height: 540px;
+margin-right: 1%;
+margin: 1%;
+align-items: flex-end;
+
+    }
+    Aside{
+    background-color: bisque;
+    text-align: center;
+    width: 28%;
+    float: left;
+    height: 540px;
+    margin-left: 1%;
+    margin: 1%;
+    }
+
+    Footer{
+        background-color: aquamarine;
+        text-align: center;
+        clear: both;
+        padding: 15px;
+        margin: 1%;
+    }
+    body{
+        background-color: rgb(177, 32, 121);
+    }
+    img{
+        float: center;
+        margin: 2%;
+        width: 28%;
+     align-items: flex-end;
+
+    }
