@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <script>
+        function image_picker(){
+            const list_foto = ["serigala.jpeg", "singa.jpeg", "Harimau.jpeg", "cetah.jpeg"];
+            let pilihan = document.getElementById("option").value;
+
+            if( pilihan == "serigala"){
+                let select = list_foto[0];
+                document.getElementById("foto").src = `Foto-hewan/${select}`;
+            }
+            if( pilihan == "singa"){
+                let select = list_foto[1];
+                document.getElementById("foto").src =  `Foto-hewan/${select}`;
+            }
+            if( pilihan == "Harimau"){
+                let select = list_foto[2];
+                document.getElementById("foto").src =  `Foto-hewan/${select}`;
+            }
+            if( pilihan == "cetah"){
+                let select = list_foto[3];
+                document.getElementById("foto").src =  `Foto-hewan/${select}`;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Image Picker</h1>
+    <select name="" id="option" onchange="image_picker()">
+        <option value="">pilih foto</option>
+        <option value="serigala"> Serigala </option>
+        <option value="singa"> Singa </option>
+        <option value="Harimau"> Harimau </option>
+        <option value="cetah"> Cetah </option>
+    </select>
+    <div class="coontainer">
+        <img id="foto" width="50%">
+    </div>
+</body>
+</html>

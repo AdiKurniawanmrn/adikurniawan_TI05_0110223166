@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+</head>
+<body>
+    <h1>Halaman Login</h1>
+    <form onsubmit="Login()">
+        <!--inputan Username -->
+     <form id="loginForm" onsubmit="Login()">
+        <label form="username">Masukan Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <br />
+        <!--inputan password-->
+        <label form="password">Masukan Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <br />
+
+        <input type="submit" value="Login" />
+    </form>
+    <!---->
+    <script>
+        function Login() {
+            // Tangkap Username & Password -> simpan ke variabel
+            let user = document.getElementById("username").value;
+            let pw = document.getElementById("password").value;
+
+            //cek username & password
+            if (user === "Adi kurniawan" && pw === "22222") {
+                alert("Login Berhasil");
+            } else{
+                alert("Login Gagal");
+            }
+            
+        }
+    </script>
+</body>
+</html>
